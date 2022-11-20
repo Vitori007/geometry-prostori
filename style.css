@@ -7,7 +7,7 @@ header {
   padding:20px;
   margin:0px;
 }
-header a{
+header a, footer a{
    color: white;
    text-decoration:none;
    font-size:20px;
@@ -51,4 +51,9 @@ main {
     box-shadow:5px 5px 5px 5px #99bbff;
     background-color:white;
     padding:5px;
+}
+footer{
+  margin:0px;
+  padding:20px;
+  background: linear-gradient(to top left, #000099 30%, #ccffff 100%);
 }
